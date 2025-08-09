@@ -28,27 +28,3 @@ app.listen(process.env.port, () => {
 })
 
 
-
-// const express = require('express');
-// require("dotenv").config();
-
-// const app = express();
-
-// app.get("/", (req, res) => {
-//     res.send("this is me mujtaba abid");
-// });
-
-// app.get("/facebook", (req, res) => {
-//     res.send("this is Facebook path");
-// });
-
-// app.get("/login", (req, res) => {
-//     res.send("<h1>this is login page</h1>");
-// });
-
-// app.get("/youtube", (req, res) => {
-//     res.send("<h1>this is YouTube</h1>");
-// });
-
-// // Vercel will handle listening
-// module.exports = app;
